@@ -195,8 +195,24 @@
               <div style="width: 60%"></div>
             </div>
           </div>
-        </div>
+        </div> 
+        <br> <br> 
+        <div id="heading"><h1 id="text">AVENGERS QUIZ<h1></div>
+          <div id="quiz">
+            <div id="question"></div>
+            <label class="option"><input type="radio" name="option" value="1" /><span id="option1"></span></label>
+            <label class="option"><input type="radio" name="option" value="2" /><span id="option2"></span></label>
+            <label class="option"><input type="radio" name="option" value="3" /><span id="option3"></span></label>
+            <label class="option"><input type="radio" name="option" value="4" /><span id="option4"></span></label>
+            <button id="next" onclick="nextques();">NEXT QUESTION</button>
+          </div>
+          <div id="result" style="display:none">
+          </div>
+          <button id="quit" onclick="quit();">Quit</button>
+          <script type="text/javascript" src="questions.js"></script>
+      <script type="text/javascript" src="main.js"></script>
       </div>
+      
     </div>
   </body>
 </html>
